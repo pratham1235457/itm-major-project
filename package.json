@@ -1,0 +1,15 @@
+{
+  "name": "prompt-injection-detection",
+  "version": "1.0.0",
+  "description": "A rule-based prompt injection detection demo using Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^4.21.2"
+  }
+}
